@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PlaceOrder]">
+  <test thread-count="5" name="PlaceOrderAndCheckOut(failed)">
+    <classes>
+      <class name="TestCases.PlaceOrderOnline">
+        <methods>
+          <include name="initilizeTest"/>
+          <include name="placeOrder"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TestCases.PlaceOrderOnline -->
+    </classes>
+  </test> <!-- PlaceOrderAndCheckOut(failed) -->
+</suite> <!-- Failed suite [PlaceOrder] -->
